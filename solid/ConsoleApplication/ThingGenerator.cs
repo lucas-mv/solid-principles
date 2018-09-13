@@ -9,10 +9,7 @@ namespace ConsoleApplication
     {
         public static Something GenerateSomething()
         {
-            return new Something()
-            {
-                Name = "Eu sou a coisa número " + (new Random()).Next()
-            };
+            return new Potato();
         }
     }
 }
